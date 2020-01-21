@@ -86,4 +86,7 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
 
  - 그 후 날짜별로 평균기온, 강수량, 일교차 등을 선 그래프로 그렸습니다.
  
- 
+![날짜별평균기온](https://user-images.githubusercontent.com/49123169/72806607-ddacb400-3c98-11ea-8b32-d3a7e0d9a04f.PNG)
+
+
+(2) GS25 EDA
