@@ -67,6 +67,7 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
 ~~~
 
 - 필요없는 지점번호와 지점명을 없앤 후, 결측치 확인 작업에 들어갔습니다.
+  
   (msno.bar 사용)
   
 ![weather outlier](https://user-images.githubusercontent.com/49123169/72800709-5147c480-3c8b-11ea-8c93-a48482b40ceb.PNG)
@@ -104,5 +105,11 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
  plt.rc('font', family='원하는 폰트이름')
  ~~~
  
- 
- 
+![전체 판매량](https://user-images.githubusercontent.com/49123169/72809832-c8875380-3c9f-11ea-82e9-806656f7f287.PNG)
+![편의점 여성남성비율](https://user-images.githubusercontent.com/49123169/72809833-c8875380-3c9f-11ea-8062-8090a48cd87c.PNG)
+
+- 이후, 좀 세부적으로 들어갔습니다.
+  
+  (각 상품별 날짜에 따른 매출액, 요일별 매출 등)
+  
+  
