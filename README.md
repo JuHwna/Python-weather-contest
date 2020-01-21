@@ -50,7 +50,8 @@
 ## 8. 프로젝트 진행 상황
 ### 1) 데이터 EDA
 (1) 날씨 데이터 EDA
- 제공 받은 기상 데이터가 원래 columns 명이 영어였기 때문에 눈으로 보기 쉽게 하기 위해 칼럼별 이름부터 변경한 후 시작했습니다.
+
+ - 제공 받은 기상 데이터가 원래 columns 명이 영어였기 때문에 눈으로 보기 쉽게 하기 위해 칼럼별 이름부터 변경한 후 시작했습니다.
 ~~~
 weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
                         weather_seoul.columns[1] : '지역번호',
@@ -65,3 +66,6 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
                         weather_seoul.columns[10] : '총강수량'}, inplace=True)
 ~~~
 
+- 필요없는 지점번호와 지점명을 없앤 후, 결측치 확인 작업에 들어갔습니다.
+  (msno.bar 사용)
+  
