@@ -90,3 +90,19 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
 
 
 (2) GS25 EDA
+
+ - 먼저 전체적인 면을 보는 작업을 진행했습니다.(전체 판매량, 전체 상품판매량 비중 등)
+ 
+ *Python의 경우, 한글을 인식시키려면 글씨체를 한글로 바꿔야 합니다.
+ ~~~
+ import matplotlib as mpl
+ import matplotlib.font_manager as fm
+ from matplotlib.font_manager import fontManager
+ for font in fontManager.ttflist:
+    if '원하는 폰트이름' in font.name: #폰트가 없으면 깔으셔야지 적용됩니다. 보통 Mal치면 맑음고딕체는 다 있어서 그걸로 연습해보세요!
+        print(font.name)
+ plt.rc('font', family='원하는 폰트이름')
+ ~~~
+ 
+ 
+ 
