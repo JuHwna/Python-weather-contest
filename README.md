@@ -83,3 +83,7 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
  2. python은 df.interpolate으로 사용할 수 있습니다.
  3. 이론적으로는 알려진 지점의 값 사이(중간)에 위치한 값을 알려진 값으로부터 추정하는 것이라고 합니다.
     >https://darkpgmr.tistory.com/117 이론 참고하세요!
+
+ - 그 후 날짜별로 평균기온, 강수량, 일교차 등을 선 그래프로 그렸습니다.
+ 
+ 
