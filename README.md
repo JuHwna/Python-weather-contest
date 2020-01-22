@@ -94,7 +94,8 @@ weather_seoul.rename(columns={weather_seoul.columns[0] : '날짜',
 
  - 먼저 전체적인 면을 보는 작업을 진행했습니다.(전체 판매량, 전체 상품판매량 비중 등)
  
- *Python의 경우, 한글을 인식시키려면 글씨체를 한글로 바꿔야 합니다.
+ * Python의 경우, 한글을 인식시키려면 글씨체를 한글로 바꿔야 합니다.
+ 
  ~~~
  import matplotlib as mpl
  import matplotlib.font_manager as fm
